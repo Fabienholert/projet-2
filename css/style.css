@@ -3,6 +3,7 @@
     font-family: 'Raleway', sans-serif;
 }
 
+
 :root {
     --main-color: #0065FC;
     --main-bg-color: #F2F2F2;
@@ -166,9 +167,15 @@ a {
     /* ... */
 }
 
+
+
+
+
 header {
     display: flex;
     justify-content: space-between;
+    height: 79px;
+    width: 100%;
 }
 .logo-header{
 
@@ -180,12 +187,16 @@ header {
 
 nav {
     display: flex;
-    gap: 10px
+    padding-top: 10px;
 
+}
+
+.boutons-header{
+    padding: 50px 50px;
+    gap:68px;
 }
 
 .boutons-header :hover {
     color: #0065FC;
-    margin-top: 0px;
-    border-top: solid #0065FC;
+    border-top:1px solid #0065FC;
 }
