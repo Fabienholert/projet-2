@@ -15,8 +15,8 @@
 }
 
 body {
+    Margin: 0%;
     display: flex;
-    justify-content: center;
 }
 
 .main-container {
@@ -187,16 +187,19 @@ header {
 
 nav {
     display: flex;
-    padding-top: 10px;
+    padding: 10px;
 
 }
 
 .boutons-header{
-    padding: 50px 50px;
     gap:68px;
+    display: flex;
+    padding:5px
+    
 }
 
 .boutons-header :hover {
     color: #0065FC;
     border-top:1px solid #0065FC;
+    display: flex;
 }
