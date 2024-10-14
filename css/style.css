@@ -165,3 +165,27 @@ a {
 @media (max-width: 767.98px) {
     /* ... */
 }
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+.logo-header{
+
+    Padding: 30px 50px 30px 50px;
+    display:flex;
+    gap: 10px;
+}
+
+
+nav {
+    display: flex;
+    gap: 10px
+
+}
+
+.boutons-header :hover {
+    color: #0065FC;
+    margin-top: 0px;
+    border-top: solid #0065FC;
+}
