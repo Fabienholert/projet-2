@@ -160,11 +160,11 @@ a {
     .populaires-cards .card-subtitle {
         font-size: 13px;
     }
-}
+    }
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-    /* ... */
+
 }
 
 
@@ -184,7 +184,6 @@ header {
 
 
 nav {
-    position: relative;
     text-decoration: none;
     display: flex;
     gap: 68px;
@@ -192,8 +191,18 @@ nav {
 .bouton {
     padding: 10px;
 }
+/* modifier en media queries */
+
 nav :hover {
     display:flex;
     color: #0065FC;
     border-top:1px solid #0065FC;
+}
+
+/*body*/
+
+.fa-solid fa-location-dot {
+    border-radius: 100% 0% 100% 0% / 99% 0% 100% 1%;
+     ;
+
 }
