@@ -207,24 +207,32 @@ nav :hover {
 
 .search-bar {
     display: flex;
-    align-items: flex-start;
-    
+    border-top: solid 1px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom:solid 1px;
+    border-color: #F2F2F2;
 }
 
 .icone-lieu {
     background-color: #F2F2F2;
     border-radius: 15px 0px 0px 15px;
-    color: black;
+    padding: 10px;
 }
 
-.zone-de-recherche {
-    border: none;
-}
 
 input[type="text"] {
-    border-top: solid 1px #F2F2F2 ;
-    border-bottom: solid 1px #F2F2F2;
-    
+    border-top: 0px;
+    border-bottom: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    padding: 10px;
+    margin: 0px;
+    text-align: center ;
+    border-color: #F2F2F2;
+    color:black
 }
 
 
@@ -233,4 +241,6 @@ input[type="text"] {
     border-radius: 0px 15px 15px 0px;
     color: #ffffff;
     border: none;
+    padding: 10px;
+    margin-left: -1px;
 }
