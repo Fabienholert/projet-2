@@ -169,12 +169,14 @@ a {
 
 
 
-
+/*   mon code */
 
 header {
     display: flex;
     justify-content: space-between;
 }
+
+
 .logo-header{
     display:flex;
     gap: 10px;
@@ -201,8 +203,36 @@ nav :hover {
 
 /*body*/
 
-.fa-solid fa-location-dot {
-    border-radius: 100% 0% 100% 0% / 99% 0% 100% 1%;
-     ;
+/*search bar*/
 
+.search-bar {
+    display: flex;
+    align-items: flex-start;
+}
+
+.icone-lieu {
+    background-color: #F2F2F2;
+    border-radius: 15px 0px 0px 15px;
+    padding:5px;
+    color: black;
+}
+
+.zone-de-recherche {
+    border: none;
+    padding: 10px;
+}
+
+input[type="text"] {
+    border: none; 
+    padding: 5px; 
+    outline: none;
+    color:black
+}
+
+
+.bouton-rechercher {
+    background-color: #0065FC ;
+    border-radius: 0px 15px 15px 0px;
+    color: #ffffff;
+    padding: 5px;
 }
