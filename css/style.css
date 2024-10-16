@@ -207,6 +207,7 @@ nav :hover {
 
 .search-bar {
     display: flex;
+    flex-direction: row;
     border-top: solid 1px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
@@ -235,12 +236,46 @@ input[type="text"] {
     color:black
 }
 
-
 .rechercher {
     background-color: #0065FC ;
     border-radius: 0px 15px 15px 0px;
     color: #ffffff;
     border: none;
     padding: 10px;
-    margin-left: -1px;
+}
+
+/*filtres*/
+
+.filtre {
+    display:flex;
+    align-items: center;
+    gap:10px;
+    font-weight: bold;
+    padding: 10px
+}
+
+.boutons-filtres {
+    display:flex;
+    gap: 30px;
+}
+
+.économique, .famillial, .romantique, .pépites {
+    display: flex;
+    gap: 5px;
+    border: 2px solid #F2F2F2;
+    border-radius: 25px;
+    padding:10px
+}
+
+.ilogements{
+    display: flex;
+    gap: 10px
+}
+
+.i-icone {
+    display: flex;
+    border: solid 2px #F2F2F2 ;
+    border-radius: 50px;
+    gap: 10px;
+    padding: 10px;
 }
