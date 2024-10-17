@@ -63,7 +63,6 @@ a {
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
-    gap: 40px;
 }
 
 .hebergements-and-populaires section {
@@ -167,6 +166,9 @@ a {
 @media (max-width: 767.98px) {
 
 }
+
+
+
 
 
 
@@ -294,11 +296,11 @@ input[type="text"] {
 /*card hébergement de Marseille*/
 
 .Hébergement {
-    display: flex;
+    display: block;
     padding: 30px;
     gap: 30px;
-    border-radius: 15px;
-    box-sizing: border-box;
+    border-radius: 15px; 
+    unicode-bidi: isolate;
 }
 
 
@@ -313,15 +315,26 @@ input[type="text"] {
 }
 
 .partie1-card, .partie2-card {
-    display: flex;
-    flex-direction: row;
-    gap: 30px
+    display:flex ;
+    padding: 5px;
+    margin-top: 33px;
+    gap: 30px;
+
 }
 
 .card-marseille img {
-    width:max-content;
-    height: 100px;
+    width:100%;
+    height: 124px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     object-fit: cover;
+}
+
+
+/*Activités*/
+
+.activités {
+    display: block;
+    flex-direction: row;
+    width: auto;
 }
