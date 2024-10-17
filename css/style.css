@@ -184,7 +184,7 @@ header {
 .logo-header{
     display:flex;
     gap: 10px;
-    padding: 30px 50px 30px 50px;
+    padding: 30px 0px 30px 0px;
     height: 19px;
 }
 
@@ -365,13 +365,16 @@ input[type="text"] {
     height: 200px;
     box-sizing: border-box;
     overflow: hidden;
-    width: 100%;
+    width: 80%;
+    max-width: 1300px;
     object-fit: scale-down;
 }
 
 /*footer*/
 
 footer {
-    display: block;
+    display: flex;
     justify-content: space-between;
+    flex-direction: row;
+    border-radius: 20px ;
 }
