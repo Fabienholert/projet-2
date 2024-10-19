@@ -225,6 +225,7 @@ input[type="text"] {
     padding-left: 15px;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .hebergements-cards .card-title {
