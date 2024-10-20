@@ -100,31 +100,28 @@ nav :hover {
 .search-bar {
     display: flex;
     flex-direction: row;
-    border-top: solid 1px;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    border-bottom:solid 1px;
-    border-color: #F2F2F2;
 }
 
 .icone-lieu {
     background-color: #F2F2F2;
+    display: flex;
+    align-items: center;
     border-radius: 15px 0px 0px 15px;
-    padding: 10px;
+    padding: 15px;
 }
 
 
 input[type="text"] {
-    border-top: 0px;
-    border-bottom: 0px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
     border-right: 0px;
     border-left: 0px;
-    padding: 10px;
+    padding: 15px;
     margin: 0px;
-    text-align: center ;
+    text-align: center;
+
     border-color: #F2F2F2;
+    font-weight: bold;
     color:black
 }
 
