@@ -185,7 +185,6 @@ input[type="text"] {
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
-    align-items:stretch;
     justify-content: space-between;
 }
 
@@ -201,13 +200,17 @@ input[type="text"] {
 
 .hebergements {
     width: 65%;
+    gap: 30px;
+    padding: 30px;
 }
 
 .hebergement1 {
+    width: 100%;
     display: flex;
     flex-direction: row;
-    width:auto;
-    gap: 30px
+    justify-content:center;
+    gap: 30px ;
+    align-items: start;
 
 }
 
@@ -225,13 +228,14 @@ input[type="text"] {
     height: 124px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    object-fit: cover;
 }
 
 .hebergements-cards .card-content {
     width: auto;
     display: flex;
     flex-direction: column;
-    justify-content:first baseline;
+    justify-content:space-between;
     padding-left: 10px;
     padding-right: 15px;
     gap: 8px;
@@ -240,7 +244,7 @@ input[type="text"] {
 
 .hebergements-cards .card-title {
     margin-top: 10px;
-    margin-bottom: 4px;
+    margin-bottom: 0px;
 }
 
 .hebergements-cards .card-subtitle {
@@ -256,6 +260,8 @@ input[type="text"] {
     border-radius: 20px;
     padding: 5px;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+    width: 250px;
+    height: 207px;
 }
 
 /****** Populaires ***********/
@@ -307,9 +313,10 @@ input[type="text"] {
 
 .img-activites {
     display: inline-flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     gap:30px;
-    padding: 30px
+    padding: 30px;
+    width:  ;
 }
 
 .act-title {
