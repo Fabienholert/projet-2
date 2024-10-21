@@ -16,13 +16,12 @@
 
 body {
     display: flex;
-    justify-content: space-between;
+    justify-content: center ;
     margin: 0px;
     gap: 30px;
 }
 
 .main-container {
-    width: 100%;
     max-width: 1440px;
     padding: 0 50px;
     box-sizing: border-box;
@@ -46,6 +45,10 @@ a {
 }
 
 .card img {
+    object-fit: cover;
+}
+
+.card-marseille img {
     object-fit: cover;
 }
 
@@ -110,7 +113,13 @@ nav :hover {
     border-radius: 15px 0px 0px 15px;
     padding: 10px;
 }
+.rechercher {
+    display: inline-block;
+}
 
+.loupe {
+    display: none;
+}
 
 input[type="text"] {
     border-top: 1px solid;
@@ -198,20 +207,13 @@ input[type="text"] {
 
 /****** Hebergements **********/
 
-.hebergements {
-    width: 65%;
-    gap: 30px;
-    padding: 30px;
-}
 
 .hebergement1 {
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content:center;
+    justify-content:space-between;
     gap: 30px ;
-    align-items: start;
-
 }
 
 .hebergements-title {
@@ -232,7 +234,7 @@ input[type="text"] {
 }
 
 .hebergements-cards .card-content {
-    width: auto;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content:space-between;
@@ -352,6 +354,9 @@ footer {
     gap: 15px;
 }
 
+.text-footer :hover {
+    text-decoration: underline;
+}
 
 
 
@@ -360,12 +365,27 @@ footer {
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+
+    .rechercher {
+        display: none;
+    }
+
+    .loupe {
+        display: inline-flex;
+        align-items: center;
+    }
+    
     .hebergements-and-populaires {
         flex-direction: column;
     }
 
     .hebergements {
-        width: 100%;
+
+    }
+
+    .card-marseille{
+        display: flex;
+        flex-direction: row;
     }
 
     .populaires {
@@ -376,7 +396,7 @@ footer {
     .populaires-cards {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: center;
     }
 
     .populaires-cards a {
@@ -400,6 +420,18 @@ footer {
     }
 
 /* Small devices (phones, less than 768px) */
-@media (max-width: 767.98px) {
+@media (min-width:320px) and  (max-width: 767.98px ) {
+    .rechercher {
+        display: none;
+    }
 
+    .loupe {
+        display: inline-block;
+    }
+.activites{
+        width: 100%;
+        margin: 50px;
+        display: flex;
+        flex-direction: column;
+    }
 }
