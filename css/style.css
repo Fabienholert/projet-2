@@ -266,6 +266,7 @@ input[type="text"] {
 }
 
 /****** Populaires ***********/
+
 .populaires {
     width: 32%;
 }
@@ -309,6 +310,7 @@ input[type="text"] {
 .populaires-cards .card-rating {
     margin-bottom: 5px;
 }
+
 
 /******* Activités **********/
 
