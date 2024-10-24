@@ -375,20 +375,14 @@ footer {
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
-
-    .rechercher {
-        display: none;
-    }
-
-    .loupe {
-        display: inline-flex;
-        align-items: center;
-    }
     
     .hebergements-and-populaires {
         flex-direction: column;
     }
 
+    .hebergements {
+        width: 100%;
+    }
     .card-marseille{
         display: flex;
         flex-direction: row;
@@ -403,25 +397,30 @@ footer {
         display: flex;
         flex-direction: row;
         justify-content: center;
+        gap:20px
     }
 
     .populaires-cards a {
-        width: 30%;
+        width: 90%;
+        gap:20px
     }
 
     .populaires-cards .card-title {
+        display: flex;
         font-size: 14px;
     }
 
     .populaires-cards .card-subtitle {
         font-size: 13px;
     }
-    .activites{
-        width: 100%;
-        margin: 50px;
+    .img-activites{
         display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .activites img {
+        width: 193px ;
+        height: 200px;
+        object-fit: cover;
     }
     }
 
@@ -432,7 +431,8 @@ footer {
     }
 
     .loupe {
-        display: inline-block;
+        display: flex;
+        align-items: center;
     }
 .activites{
         width: 100%;
