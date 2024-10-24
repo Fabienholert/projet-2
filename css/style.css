@@ -66,6 +66,9 @@ header {
     height: 19px;
 }
 
+.intro {
+    gap:8px
+}
 
 nav {
     text-decoration: none;
@@ -267,17 +270,23 @@ input[type="text"] {
 .card {
     background-color: white;
     border-radius: 20px;
-    padding: 5px;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
     margin-top: 33px;
     width: 100%;
     height: 146px;
+}
+.card-populaires {
     display: flex;
+    flex-direction: row;
+    align-content: center;
 }
 
 .card img {
-    width: 30%;
-    height: 100%;
+    width: 35%;
+    height: 135px;
+    padding-top: 5px ;
+    padding-left: 5px;
+    padding-bottom: 5px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     object-fit: cover;
@@ -286,10 +295,9 @@ input[type="text"] {
 .populaires .card-content {
     display: flex;
     flex-direction: column;
-    align-content:space-between;
-    gap: 24px;
-    padding: 10px 5PX 5PX 15px;
-
+    justify-content:space-between;
+    padding: 0px 5PX 5PX 15px;
+    align-items: start;
 }
 
 /******* Activités **********/
