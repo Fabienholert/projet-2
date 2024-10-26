@@ -331,7 +331,9 @@ input[type="text"] {
 }
 
 .act-title {
-    padding :30px;
+    padding-top :30px;
+    padding-left: 30px;
+    margin-bottom: 0px;
 }
 
 .act-images {
@@ -377,6 +379,38 @@ footer {
 
 @media (max-width: 1024px) {
     
+/******* intro ********/
+    nav :hover {
+        display:flex;
+        color: #0065FC;
+        border-top:1px solid #0065FC;
+    }
+
+
+    header {
+        font-size:small ;
+    }
+
+    .introduction {
+        font-size: small;
+    } 
+    .filtre {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 20px;
+    }
+
+    .icone-i {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+/******* hebergements et populaires ********/
+   
+    
     body .hebergements-and-populaires .act-title{
         font-size: small;
     }
@@ -385,32 +419,112 @@ footer {
         flex-direction: column;
     }
 
+/******** Hebergements **********/
+
+    .hebergements .section-title{
+        font-size: large;
+    }
+
+    .hebergements .hebergements-plus h2 {
+        font-size: medium ;
+        padding-top: 10px;
+    }
+
     .hebergements {
         width: 100%;
+        font-size: small;
+        gap: 30px;
     }
+    .card-marseille {
+        width: 30%;
+        height: 80%;
+        gap:2px;
+        padding-bottom: 15px;
+        font-size: small;
+    }
+
+    .card-marseille img {
+        width: 100%;
+        height: 70px;
+    }
+
+    .card-marseille .card-txt {
+        width: 120%;
+        font-size: smaller;
+    }
+
+    .card-marseille .card-title {
+        font-size: small;
+    }
+
+
+/******** populaires ********/
+    
 
     .populaires {
         width: 100%;
         margin-top: 50px;
     }
 
+    .populaires .card {
+        margin-top: 20px;
+    }
+
+    .populaires .section-title{
+        font-size: large;
+    }
+
     .populaires-cards {
+        width: 100%;
+        gap: 10px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
     }
 
     .populaires-cards a {
+        width: 100%;
+        height: 99%;
+    }
+
+    .populaires .card-content{
+        font-size: small;
+        padding: 0px 5px 5px 10px;
+    }
+
+    .populaires .card-title{
+        font-size:small;
+    }
+
+    .populaires .card-subtitle{
+        font-size: smaller;
+    }
+
+    .populaires img {
         width: 30%;
     }
 
-    .populaires-cards .card-title {
-        font-size: 14px;
+
+/****** Activités *******/
+
+    .img-activites{
+        gap:13px
     }
 
-    .populaires-cards .card-subtitle {
-        font-size: 13px;
+    .act-images {
+        width: 100%;
     }
+    .act-images img{
+        width: 100% ;
+        height: 60%;
+    }
+
+    .act-images h3{
+        font-size: small;
+    }
+
+
+/******* Footer *******/
 }
 
 
