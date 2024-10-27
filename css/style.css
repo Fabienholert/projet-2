@@ -550,6 +550,23 @@ footer {
 
 /* Small devices (phones, less than 768px) */
 @media (min-width:320px) and  (max-width: 767.98px ) {
+
+
+
+/* header */
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }    
+
+    nav :hover {
+        display:flex;
+        color: #0065FC;
+        border-bottom: 1px solid #0065FC;
+    }
+
+
     .rechercher {
         display: none;
     }
@@ -557,11 +574,77 @@ footer {
     .loupe {
         display: flex;
         align-items: center;
+        background-color: #0065FC ;
+        border-radius: 15px 15px 15px 15px;
+        color: #ffffff;
+        border: none;
+        padding: 12.2px;
+        margin-left: -15px;
+
+
     }
-.activites{
+
+    .search-bar{
+        display: flex;
+        flex-direction: row;
+        padding-top: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .boutons-filtres {
+        display: flex;
+        gap: 30px;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .icone-lieu {
+        background-color: #F2F2F2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 15px 0px 0px 15px;
+        padding: 12.2px;
+    }
+
+    .filtre {
         width: 100%;
-        margin: 50px;
+    }
+
+/* hebergement et populaires */
+
+    .hebergements-and-populaires{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .hebergements-cards{
         display: flex;
         flex-direction: column;
     }
+
+    .card-marseille{
+        width: 100%;
+    }
+
+    .populaires-cards{
+        display: flex;
+        flex-direction: column;
+    }
+
+/* Activités */
+    .img-activites{
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Footer */
+    footer {
+        display: flex;
+        flex-direction: column;
+        gap: 30px
+    }
+
+
 }
