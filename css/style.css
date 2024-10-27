@@ -92,8 +92,7 @@ nav {
     padding: 10px;
 }
 
-/* modifier en media queries */
-
+/* Attention a modifier en media queries*/
 nav :hover {
     display:flex;
     color: #0065FC;
@@ -406,6 +405,12 @@ footer {
         flex-direction: column;
     }
 
+    nav :hover {
+        display:flex;
+        color: #0065FC;
+        border-top:1px solid #0065FC;
+    }
+
 
 
 /******* hebergements et populaires ********/
@@ -476,7 +481,7 @@ footer {
 
     .populaires-cards {
         width: 100%;
-        gap: 10px;
+        gap: 15px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -506,17 +511,21 @@ footer {
 
 
 /****** Activités *******/
+    .activites .act-title {
+        font-size: large;
+    }
 
     .img-activites{
-        gap:13px
+        gap:20px
     }
 
     .act-images {
         width: 100%;
+        height: 200px;
     }
     .act-images img{
         width: 100% ;
-        height: 60%;
+        height: 70%;
     }
 
     .act-images h3{
@@ -525,6 +534,17 @@ footer {
 
 
 /******* Footer *******/
+    footer {
+        display: flex;
+        justify-content: flex-start;
+        align-items:start;
+        font-size: small;
+        gap: 100px;
+   }
+   footer h3{
+    margin-bottom: 0%;
+   }
+
 }
 
 
