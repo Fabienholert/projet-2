@@ -66,6 +66,8 @@ header {
     height: 19px;
 }
 
+
+
 .intro {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -84,19 +86,20 @@ nav {
     gap: 68px;
 }
 
+    
+nav :hover {
+    display:flex;
+    color: #0065fc ;
+    border-top:1px solid #0065FC;
+}
+
+
 ::placeholder {
     color: black;
 }
 
 .bouton {
     padding: 10px;
-}
-
-/* Attention a modifier en media queries*/
-nav :hover {
-    display:flex;
-    color: #0065FC;
-    border-top:1px solid #0065FC;
 }
 
 /*search bar*/
@@ -249,11 +252,11 @@ input[type="text"] {
 }
 
 .hebergements-cards .card-subtitle {
-    margin: 0px;
+    margin: 10px;
 }
 
 .hebergements-cards .card-rating {
-    margin-bottom: 0cqb;
+    margin-bottom: 0px;
 }
 
 .card-marseille {
@@ -379,12 +382,6 @@ footer {
 @media (max-width: 1024px) {
     
 /******* intro ********/
-    nav :hover {
-        display:flex;
-        color: #0065FC;
-        border-top:1px solid #0065FC;
-    }
-
 
     header {
         font-size:small ;
@@ -404,14 +401,6 @@ footer {
         display: flex;
         flex-direction: column;
     }
-
-    nav :hover {
-        display:flex;
-        color: #0065FC;
-        border-top:1px solid #0065FC;
-    }
-
-
 
 /******* hebergements et populaires ********/
    
@@ -569,19 +558,21 @@ footer {
         font-size: medium;
         width: 100%;
         display: flex;
-        justify-content: space-evenly;
         border-bottom: 2px solid var(--main-bg-color);
+        gap: 0px;
+        padding: 10px;
+        text-decoration: none ;
     }
 
     nav:hover {
-        border-bottom: none;
         border-top: none;
-
+        text-decoration:none ;
     }
     
     nav a {
         position: relative; 
         text-decoration: none;
+        border-top: none;
     }
     
     nav a:hover {
@@ -593,12 +584,16 @@ footer {
         position: absolute;
         left: 0;
         right: 0;
-        bottom: -2px; /* Ajuste la position de la bordure */
-        height: 2px; /* Épaisseur de la bordure */
-        background-color: #0065FC; /* Couleur de la bordure */
-        display: none;
+        bottom: -12px;
+        height: 2px; 
+        background-color: #0065FC;
+        display: block;
+        width: 100%;
     }
 
+    header .bouton{
+        width: 50%;
+    }
 
     .rechercher {
         display: none;
@@ -643,6 +638,8 @@ footer {
 
     .filtre {
         width: 100%;
+        display: flex;
+        flex-wrap: wrap;
     }
 
 /* hebergement et populaires */
@@ -689,5 +686,7 @@ footer {
         gap: 30px
     }
 
-
 }
+
+
+
