@@ -382,11 +382,14 @@ input[type="text"] {
 
 footer {
     display: flex;
-    justify-content: space-around;
-    flex-direction: row;
     padding: 20px;
     background-color: #F2F2F2;
     gap: 15px;
+    width: 100%;
+}
+
+footer > .footer-text {
+    flex: 1;
 }
 
 .text-footer :hover {
