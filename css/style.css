@@ -418,6 +418,9 @@ footer > .footer-text {
 
 @media (max-width: 1024px) {
     
+    body {
+        font-size: small;
+    }
 /******* intro ********/
 
     header {
@@ -427,6 +430,12 @@ footer > .footer-text {
     .introduction {
         font-size: small;
     } 
+    .zone-de-recherche input {
+        font-size: small;
+    }
+    .search-bar {
+        font-size: 16px
+    }
     .filtre {
         display: flex;
         flex-direction: column;
@@ -434,6 +443,13 @@ footer > .footer-text {
         gap: 20px;
     }
 
+    .rechercher {
+        font-size: small;
+    }
+
+    .icones {
+        font-size: small;
+    }
     .icone-i {
         display: flex;
         flex-direction: column;
