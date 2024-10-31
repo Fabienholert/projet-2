@@ -96,6 +96,7 @@ nav :hover {
     display:flex;
     color: #0065fc ;
     border-top: 2px solid #0065FC;
+    border-bottom: none;
 }
 
 
@@ -598,8 +599,17 @@ footer > .footer-text {
     .main-container {
         width: 100%;
         max-width: 767.98px;
-        padding: 0%;
+        padding-left: 5%;
+        padding-right: 5% ;
         box-sizing: border-box;
+    }
+
+    h2 {
+        font-size:22px 
+    }
+
+    h1 {
+        font-size: 28px;
     }
 
 /* header */
@@ -609,29 +619,33 @@ footer > .footer-text {
         align-items: center;
     }    
 
+    .logo-header {
+        font-size: 19px;
+    }
+
     nav {
-        font-size: medium;
-        width: 100%;
+        font-size: 16px;
+        width: 110%;
         display: flex;
+        border-top:none ;
         border-bottom: 2px solid var(--main-bg-color);
         gap: 0px;
-        padding: 10px;
         text-decoration: none ;
     }
 
     nav:hover {
-        border-top: none;
         text-decoration:none ;
     }
     
     nav a {
         position: relative; 
         text-decoration: none;
-        border-top: none;
     }
     
     nav a:hover {
+        border-top: none;
         color: #0065FC;
+        margin-top: 0px;
     }
     
     nav a:hover::after {
@@ -639,7 +653,7 @@ footer > .footer-text {
         position: absolute;
         left: 0;
         right: 0;
-        bottom: -12px;
+        bottom: -2px;
         height: 2px; 
         background-color: #0065FC;
         display: block;
@@ -648,26 +662,38 @@ footer > .footer-text {
 
     header .bouton{
         width: 50%;
+        display: flex;
+        justify-content: center;
     }
+
+    .intro p {
+        font-size: 16px ;
+    } 
 
     .rechercher {
         display: none;
     }
 
+    .zone-de-recherche  input{
+        font-size: 18px;
+        padding:25px;
+    }
+
     .loupe {
         display: flex;
+        font-size:large;
         align-items: center;
         background-color: #0065FC ;
         border-radius: 15px 15px 15px 15px;
         color: #ffffff;
         border: none;
-        padding: 12.2px;
+        padding: 27px;
         margin-left: -15px;
     }
 
     .search-bar{
     display: flex;
-    justify-content: space-around;
+    width: 100%;
     }
 
     .boutons-filtres {
@@ -675,22 +701,29 @@ footer > .footer-text {
         gap: 60px;
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: center;
+        width: 100%;
+    }
+
+
+    .icones {
+        font-size: 14px;
     }
 
     .icone-lieu {
         background-color: #F2F2F2;
+        font-size: x-large;
         display: flex;
         justify-content: center;
         align-items: center;
         border-radius: 15px 0px 0px 15px;
-        padding: 12.2px;
+        padding:20px
     }
 
     .filtre {
         width: 100%;
         display: flex;
         flex-wrap: wrap;
+        padding-top: 20px;
     }
 
 /* hebergement et populaires */
