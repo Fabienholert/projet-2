@@ -287,8 +287,10 @@ input[type="text"] {
 
 .hebergements h2 {
     margin-bottom: 0px;
+    padding-top: 10px;
     font-size: 18px;
 }
+
 
 
 /****** Populaires ***********/
@@ -661,23 +663,19 @@ footer > .footer-text {
         border: none;
         padding: 12.2px;
         margin-left: -15px;
-
-
     }
 
     .search-bar{
-        display: flex;
-        flex-direction: row;
-        padding-top: 10px;
-        justify-content: center;
-        align-items: center;
+    display: flex;
+    justify-content: space-around;
     }
 
     .boutons-filtres {
         display: flex;
-        gap: 30px;
+        gap: 60px;
         flex-direction: row;
         flex-wrap: wrap;
+        justify-content: center;
     }
 
     .icone-lieu {
@@ -704,7 +702,9 @@ footer > .footer-text {
         margin-bottom: 0%;
     }
     
-    .hebergements{
+    .hebergements-and-populaires .hebergements{
+        display: flex;
+        flex-direction: column;
         background-color: white;
     }
 
@@ -722,7 +722,7 @@ footer > .footer-text {
         flex-direction: column;
     }
 
-    .populaires{
+    .hebergements-and-populaires .populaires{
         border-radius: revert;
     }
 
