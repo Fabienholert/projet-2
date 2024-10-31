@@ -763,6 +763,7 @@ footer > .footer-text {
     .img-activites{
         display: flex;
         flex-direction: column;
+        width: 87%;
     }
 
     /* Footer */
