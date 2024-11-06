@@ -710,6 +710,8 @@ footer > .footer-text {
     .zone-de-recherche {
         position: relative;
         width: 100%;
+        border-bottom: 2px solid var(--main-bg-color);
+        border-top: 2px solid var(--main-bg-color);
     }
     
     .zone-de-recherche::before {
