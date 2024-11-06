@@ -67,7 +67,7 @@ header {
     display:flex;
     gap: 10px;
     padding: 30px 0px 30px 0px;
-    height: 19px;
+    height: 25px;
 }
 
 .intro {
@@ -685,6 +685,7 @@ footer > .footer-text {
         font-size: 18px;
         padding:25px;
         text-align: left;
+        border: 0px;
     }
 
     .loupe {
@@ -709,16 +710,6 @@ footer > .footer-text {
     .zone-de-recherche {
         position: relative;
         width: 100%;
-    }
-    
-    .zone-de-recherche::before,
-    .zone-de-recherche::after {
-        content: '';
-        position: absolute;
-        height: 2px;
-        background-color: var(--main-bg-color);
-        width: 72%; 
-        left: 25%;
     }
     
     .zone-de-recherche::before {
@@ -839,6 +830,10 @@ footer > .footer-text {
 
     .populaires .card-txt {
         font-size: large;
+    }
+
+    .populaires img{
+        height:146px;
     }
 
     .hebergements-and-populaires .card-title {
