@@ -203,10 +203,10 @@ input[type="text"] {
     justify-content: center;
     border: solid 1px #D9D9D9 ;
     border-radius: 50%;
-    padding: 5px;
+    padding: 4px;
     text-align: center;
-    width: 24px;
-    height: 24px;
+    width: 20px;
+    height: 20px;
 }
 
 
@@ -288,7 +288,6 @@ input[type="text"] {
 
 .hebergements h2 {
     margin-bottom: 0px;
-    padding-top: 10px;
     font-size: 18px;
 }
 
@@ -386,7 +385,7 @@ input[type="text"] {
     border-top-left-radius: 20px ;
     border-top-right-radius: 20px ;
     width: 100%;
-    height: 260px;
+    height: 350px;
     object-fit: cover;
 }
 
@@ -690,7 +689,7 @@ footer > .footer-text {
 
     .loupe {
         display: flex;
-        font-size:large;
+        font-size: x-large;
         align-items: center;
         background-color: #0065FC ;
         border-radius: 15px 15px 15px 15px;
@@ -699,12 +698,16 @@ footer > .footer-text {
         box-shadow: 0px 5px 5px -2px rgba(0, 0, 0, 0.3);
         padding: 27px;
         margin-left: -15px;
+        position: relative;
+        z-index: 2;
+        height: 20px;
     }
 
     .search-bar{
     display: flex;
     justify-content: space-between;
     width: 100%;
+    height: 75px;
     }
 
     .zone-de-recherche {
@@ -712,6 +715,7 @@ footer > .footer-text {
         width: 100%;
         border-bottom: 2px solid var(--main-bg-color);
         border-top: 2px solid var(--main-bg-color);
+        z-index: 1;
     }
     
     .zone-de-recherche::before {
