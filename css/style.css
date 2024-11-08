@@ -104,7 +104,7 @@ nav :hover {
     color: black;
 }
 
-.bouton {
+header a {
     padding: 10px;
 }
 
@@ -626,10 +626,12 @@ footer > .footer-text {
         font-size: 16px;
         width: 100%;
         display: flex;
+        justify-content: space-around;
         border-top:none ;
         border-bottom: 2px solid var(--main-bg-color);
         gap: 0px;
         text-decoration: none ;
+
     }
 
     nav:hover {
@@ -656,7 +658,9 @@ footer > .footer-text {
         height: 2px; 
         background-color: #0065FC;
         display: block;
-        width: 100%;
+        width: 55vw;
+        margin-left: -20vw;
+        gap: 0px;
     }
 
     header .bouton{
