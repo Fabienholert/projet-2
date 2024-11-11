@@ -3,6 +3,9 @@
     font-family: 'Raleway', sans-serif;
 }
 
+html, body {
+    overflow-x: hidden;
+}
 
 :root {
     --main-color: #0065FC;
@@ -744,11 +747,9 @@ footer > .footer-text {
 
 
     .boutons-filtres > * {
-        flex: 1 1 150px;
         display: flex;
         align-items: flex-start;
-        justify-content: flex-start;
-        padding: 15px 19px 15px 19px;
+        width: 47%;
     }
 
     .icones span {
