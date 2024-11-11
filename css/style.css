@@ -227,11 +227,11 @@ input[type="text"] {
 /****** Hebergements **********/
 
 
-.hebergements {
+#hebergements {
     width: 65%;
 }
 
-.hebergements .section-title {
+#hebergements .section-title {
     font-size: 22px;
 }
 
@@ -286,7 +286,7 @@ input[type="text"] {
     gap:4px
 }
 
-.hebergements h2 {
+#hebergements h2 {
     margin-bottom: 0px;
     font-size: 18px;
 }
@@ -356,7 +356,7 @@ input[type="text"] {
 }
 
 /******* Activités **********/
-.activites {
+#activites {
     width: 100%;
 }
 
@@ -471,16 +471,16 @@ footer > .footer-text {
 
 /******** Hebergements **********/
 
-    .hebergements .section-title{
+    #hebergements .section-title{
         font-size: large;
     }
 
-    .hebergements .hebergements-plus h2 {
+    #hebergements .hebergements-plus h2 {
         font-size: medium ;
         padding-top: 10px;
     }
 
-    .hebergements {
+    #hebergements {
         width: 100%;
         font-size: small;
         gap: 30px;
@@ -556,7 +556,7 @@ footer > .footer-text {
 
 
 /****** Activités *******/
-    .activites .act-title {
+    #activites .act-title {
         font-size: large;
     }
 
@@ -798,7 +798,7 @@ footer > .footer-text {
         font-size: x-large;
     }
 
-    .hebergements .section-title{
+    #hebergements .section-title{
         font-size: x-large;
     }
 
@@ -813,7 +813,7 @@ footer > .footer-text {
         margin-top: 0%;
     }
     
-    .hebergements-and-populaires .hebergements{
+    .hebergements-and-populaires #hebergements{
         display: flex;
         flex-direction: column;
         background-color: white;
@@ -850,19 +850,19 @@ footer > .footer-text {
         font-size: large;
     }
 
-    .hebergements .card-txt {
+    #hebergements .card-txt {
         font-size: medium;
     }
 
-    .hebergements {
+    #hebergements {
         gap: 0px;
     }
 
-    .hebergements img {
+    #hebergements img {
         height: 150px;
     }
 
-    .hebergements .hebergements-plus H2{
+    #hebergements .hebergements-plus H2{
         font-size: large;
     }
 
@@ -873,7 +873,7 @@ footer > .footer-text {
         width: 87%;
     }
     
-    .activites .act-title {
+    #activites .act-title {
         font-size: x-large;
     }
 
