@@ -297,7 +297,7 @@ input[type="text"] {
 
 
 /****** Populaires ***********/
-.populaires {
+#populaires {
     width: 32%;
 }
 
@@ -339,7 +339,7 @@ input[type="text"] {
     object-fit: cover;
 }
 
-.populaires .card-content {
+#populaires .card-content {
     width: 67%; 
     height: 146px;
     display: flex;
@@ -350,11 +350,11 @@ input[type="text"] {
     box-sizing: border-box;
 }
 
-.populaires .card-title {
+#populaires .card-title {
     margin-bottom: 0px;
 }
 
-.populaires .card-subtitle {
+#populaires .card-subtitle {
     margin: 0px;
 }
 
@@ -514,16 +514,16 @@ footer > .footer-text {
 /******** populaires ********/
     
 
-    .populaires {
+    #populaires {
         width: 100%;
         margin-top: 50px;
     }
 
-    .populaires .card {
+    #populaires .card {
         margin-top: 20px;
     }
 
-    .populaires .section-title{
+    #populaires .section-title{
         font-size: large;
     }
 
@@ -540,20 +540,20 @@ footer > .footer-text {
         height: 99%;
     }
 
-    .populaires .card-content{
+    #populaires .card-content{
         font-size: small;
         padding: 0px 5px 5px 10px;
     }
 
-    .populaires .card-title{
+    #populaires .card-title{
         font-size:small;
     }
 
-    .populaires .card-subtitle{
+    #populaires .card-subtitle{
         font-size: smaller;
     }
 
-    .populaires img {
+    #populaires img {
         width: 30%;
     }
 
@@ -796,7 +796,7 @@ footer > .footer-text {
 
 /* hebergement et populaires */
 
-    .populaires .section-title {
+    #populaires .section-title {
         font-size: x-large;
     }
 
@@ -836,15 +836,15 @@ footer > .footer-text {
         flex-direction: column;
     }
 
-    .hebergements-and-populaires .populaires{
+    .hebergements-and-populaires #populaires{
         border-radius: revert;
     }
 
-    .populaires .card-txt {
+    #populaires .card-txt {
         font-size: large;
     }
 
-    .populaires img{
+    #populaires img{
         height:146px;
     }
 
